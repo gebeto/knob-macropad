@@ -1,8 +1,8 @@
 #include "InputDevices.h"
 #include <Arduino.h>
 
-#define ROTARY_ENCODER_A_PIN 6
-#define ROTARY_ENCODER_B_PIN 7
+#define ROTARY_ENCODER_A_PIN GPIO_NUM_6
+#define ROTARY_ENCODER_B_PIN GPIO_NUM_7
 #define ROTARY_ENCODER_BUTTON_PIN GPIO_NUM_9
 
 lv_obj_t *globalLabel;
